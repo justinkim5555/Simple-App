@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+   
+    
+    
+    
+    
+    <title> Simple Bible App</title>
+
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav-wrapper">
+            <form>
+                <div class="input-field">
+                <input id="search" type="search" required>
+                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                <i class="material-icons">close</i>
+                </div>
+            </form>
+            </div>
+        </nav>
+
+            <ul class="sidenav" id="mobile-demo">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="badges.html">Components</a></li>
+              <li><a href="collapsible.html">JavaScript</a></li>
+            </ul>
+
+        <main>
+            <div class="card large">
+                <p>
+                    The Parable of the Lost Sheep
+                    15 1  Then drew near unto him all the publicans and sinners for to hear him. 2  And the Pharisees and scribes murmured, saying, This man receiveth sinners, and eateth with them. 3  And he spake this parable unto them, saying, 4  What man of you, having an hundred sheep, if he lose one of them, doth not leave the ninety and nine in the wilderness, and go after that which is lost, until he find it? 5  And when he hath found it, he layeth it on his shoulders, rejoicing. 6  And when he cometh home, he calleth together his friends and neighbours, saying unto them, Rejoice with me; for I have found my sheep which was lost. 7  I say unto you, that likewise joy shall be in heaven over one sinner that repenteth, more than over ninety and nine just persons, which need no repentance.
+                    
+                    The Parable of the Lost Coin
+                    8  Either what woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the house, and seek diligently till she find it? 9  And when she hath found it, she calleth her friends and her neighbours together, saying, Rejoice with me; for I have found the piece which I had lost. 10  Likewise, I say unto you, there is joy in the presence of the angels of God over one sinner that repenteth.
+                    
+                </p>
+            </div>
+          
+         </main>
+
+        <div class=button>
+            <div class="fixed-action-btn vertical click-to-toggle">
+                <a class="btn-floating btn-large red">
+                <i class="material-icons">mode_edit</i>
+                </a>
+                <ul>
+                <li>
+                    <a class="btn-floating btn-large red">
+                    <i class="material-icons">insert_chart</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn-floating btn-large blue">
+                    <i class="material-icons">format_quote</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn-floating btn-large yellow">
+                    <i class="material-icons">publish</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn-floating btn-large green">
+                    <i class="material-icons">attach_file</i>
+                    </a>
+                </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>   <!--Container-->
+  
+
+
+
+        <script>
+                $(document).ready(function(){
+                    $('.collapsible').collapsible();
+
+                    $('.fixed-action-btn').floatingActionButton()
+
+                });
+        
+        </script>
+
+</body>
+</html>
